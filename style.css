@@ -93,19 +93,50 @@ h4{
 header{
     background-color: var(--purple);
     width: 450px;
+    text-align: center;
+    color: var(--white);
+}
+
+#ptsuccess{
+    margin: 10px;
 }
 
 nav{
     background-color: var(--yellow);
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 nav > h2{
     font-size: 1.5em;
+    padding: 10px;
+    font-family: Inter;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    color: var(--dark-gray);
+}
+
+li{
+    margin-bottom: 10px;
+    background-color: var(--white);
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li > a{
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 body{
     width: 450px;
     background-color: var(--purple);
+    color: var(--dark-gray);
 }
 
 #persdev{
@@ -166,6 +197,7 @@ body{
 
 #whychoose{
     background-color: var(--pink);
+    margin: 0;
 }
 
 
@@ -176,7 +208,35 @@ body{
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+div.grid > .b1{
+    border-radius: 25px;
+    background-color: var(--teal);
+    text-align: center;
+}
+
+div.grid > .b2{
+    border-radius: 25px;
+    background-color: var(--lavender);
+    text-align: center;
+}
+
+div.grid > .b3{
+    border-radius: 25px;
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+div.grid > .b4{
+    border-radius: 25px;
+    background-color: var(--white);
+    text-align: center;
 }
 
 table{
