@@ -60,24 +60,146 @@ table {
     --white: #ffffff;
 
     font-family: Inter;
+    background-color: var(--lavender);
 }
 /* GLOBAL STYLES (mobile first/small) */
+
+@media only screen and (max-device-width: 450px) {
+    
+}
 
 h1{
     font-family: Kavoon;
     font-size: 3em;
+    color: var(--white);
 }
 
 h2{
     font-family: Kavoon;
     font-size: 2em;
+    color: var(--white);
 }
 
 h3{
     font-size: 1.5em;
+    color: var(--yellow);
 }
 
 h4{
     font-size: 1.15em;
+    color: var(--purple);
 }
 
+header{
+    background-color: var(--purple);
+    width: 450px;
+}
+
+nav{
+    background-color: var(--yellow);
+}
+
+nav > h2{
+    font-size: 1.5em;
+}
+
+body{
+    width: 450px;
+    background-color: var(--purple);
+}
+
+#persdev{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#careercoach{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#relationship{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#community{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#focsession{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#interactive{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#persdev{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#flexible{
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+}
+
+#whychoose{
+    background-color: var(--pink);
+}
+
+
+#prices{
+    display: block;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white);
+    border: var(--yellow) 1px solid;
+}
+
+th{
+    background-color: var(--yellow);
+}
+
+td{
+    border: 1px var(--yellow) solid;
+}
+
+#firststep{
+    background-color: var(--pink);
+}
+
+.foot{
+    background-color: var(--purple);
+    display: flex;
+    align-content: center;
+}
