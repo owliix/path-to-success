@@ -95,22 +95,35 @@ header{
     width: 450px;
     text-align: center;
     color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #ptsuccess{
-    margin: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ptsuccess > h1{
+    padding-bottom: 10px;
+}
+
+#ptsuccess > p{
+    font-style: italic;
 }
 
 nav{
     background-color: var(--yellow);
     text-align: center;
     margin: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 nav > h2{
     font-size: 1.5em;
-    padding: 10px;
+    padding: 15px;
+    padding-bottom: 10px;
     font-family: Inter;
     font-weight: bolder;
     text-transform: uppercase;
@@ -121,15 +134,15 @@ nav > h2{
 li{
     margin-bottom: 10px;
     background-color: var(--white);
-    padding: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 li > a{
     color: var(--purple);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
@@ -137,129 +150,335 @@ body{
     width: 450px;
     background-color: var(--purple);
     color: var(--dark-gray);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services > h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#services > h3{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
 }
 
 #persdev{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#persdev > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#persdev > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#persdev > p{
+    line-height: 130%;
+    margin-right: 20px;
 }
 
 #careercoach{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#careercoach > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#careercoach > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#careercoach > p{
+    line-height: 130%;
+    margin-right: 20px;
 }
 
 #relationship{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#relationship > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#relationship > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#relationship > p{
+    line-height: 130%;
+    margin-right: 0px;
 }
 
 #community{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#community > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#community > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#community > p{
+    line-height: 130%;
+    margin-right: 30px;
 }
 
 #focsession{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#focsession > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#focsession > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#focsession > p{
+    line-height: 130%;
+    margin-right: 20px;
 }
 
 #interactive{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+    padding: 30px;
+    margin: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
-#persdev{
-    border-radius: 25px;
-    background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
+#interactive > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#interactive > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#interactive > p{
+    line-height: 130%;
+    margin-right: 20px;
 }
 
 #flexible{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
     padding: 20px;
-    margin: 10px;
+    margin: 25px;
+    margin-top: 5px;
+}
+
+#flexible > img{
+    padding-bottom: 10px;
+    resize: 100%;
+}
+
+#flexible > h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#flexible > p{
+    line-height: 130%;
+    margin-right: 30px;
 }
 
 #whychoose{
     background-color: var(--pink);
     margin: 0;
+    padding: 15px;
+    padding-bottom: 1px;
 }
 
-
-#prices{
-    display: block;
-    text-align: center;
+#whychoose > h2{
+    margin-bottom: 15px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px;
-    padding-bottom: 10px;
-    row-gap: 10px;
-    column-gap: 10px;
+    padding-bottom: 5px;
+    row-gap: 15px;
+    column-gap: 15px;
 }
 
 div.grid > .b1{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--teal);
     text-align: center;
+    font-weight: bolder;
+    padding: 30px;
 }
 
 div.grid > .b2{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--lavender);
     text-align: center;
+    font-weight: bolder;
+    padding: 30px;
 }
 
 div.grid > .b3{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--yellow);
     text-align: center;
+    font-weight: bolder;
+    padding: 30px;
 }
 
 div.grid > .b4{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--white);
     text-align: center;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+#prices{
+    display: block;
+    text-align: left;
+    margin: 20px;
+}
+
+#prices > h3{
+    font-weight: bolder;
+    margin: 10px;
+    margin-left: 0px;
 }
 
 table{
     margin-left: auto;
     margin-right: auto;
     background-color: var(--white);
-    border: var(--yellow) 1px solid;
+    border: var(--yellow) 2px solid;
+    width: 60%;
 }
 
 th{
     background-color: var(--yellow);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 td{
-    border: 1px var(--yellow) solid;
+    border: 2px var(--yellow) solid;
+    padding: 15px;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #firststep{
     background-color: var(--pink);
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#firststep > h2{
+    margin-bottom: 10px;
+}
+
+#firststep > p{
+    color: var(--white);
+    line-height: 150%;
+}
+
+button {
+    display: inline-block;
+    background-color: var(--white);
+    border: none;
+    border-radius: 15px;
+    color: var(--dark-gray);
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+
+    box-shadow: 4px 5px 3px 1px var(--dark-gray);
 }
 
 .foot{
     background-color: var(--purple);
-    display: flex;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+    padding: 50px;
+    text-align: center;
+    color: var(--white);
+    font-size: small;
+}
+
+.foot > div > a {
+    color: var(--white);
 }
